@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shopping Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-menu">
+        <div>
+          <img src="images/logo.png" alt="lennin" />
+        </div>
+        <div class="page">
+          <a href="#">Sản phẩm</a>
+          <a href="#">Sale</a>
+          <a href="#">Thư viện</a>
+          <a href="#">Giới thiệu</a>
+        </div>
+        <div class="icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a href="cart.html" class="cartWrapper">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cartQuantity">0</span>
+          </a>
+          <div class="loginWrapper">
+            <!-- Không có tài khoản -->
+            <!-- <a href="auth/login.html">
+              <i class="fa-solid fa-user" id="users"></i>
+            </a> -->
+            <!-- Có tài khoản -->
+            <p>diplamtuan@gmail.com</p>
+            <i class="fa-solid fa-user" id="users"></i>
+            <ul>
+              <li>Thông tin cá nhân</li>
+              <li class="logout">Đăng xuất</li>
+            </ul>
+          </div>
+          <div class="lines"></div>
+          <i class="fa-solid fa-globe"></i>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="selector">
+          <a href="#" id="highlight">Deck</a>
+          <a href="#">Accessories</a>
+          <a href="#">Clothing</a>
+          <a href="#">S/S 2022</a>
+          <a href="#">S/S 2021</a>
+          <a href="#">S/S 2020</a>
+          <a href="#">S/S 2019</a>
+          <a href="#">Tất cả</a>
+        </div>
+
+        <div id="products">
+          <div class="card">
+            <div class="image-container">
+              <img src="images/matrix-1999-1.jpg" />
+            </div>
+            <div class="container">
+              <h5 class="product-name">MAXTRIX 1999 DECK</h5>
+              <h6>
+                <b>Price: </b>
+                "1470000"
+              </h6>
+              <button>Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="app.js"></script> -->
+    <!-- <script src="index.js"></script> -->
+  </body>
+</html>
